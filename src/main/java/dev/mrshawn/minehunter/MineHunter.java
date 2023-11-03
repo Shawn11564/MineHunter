@@ -1,5 +1,7 @@
 package dev.mrshawn.minehunter;
 
+import dev.mrshawn.minehunter.block.ModBlocks;
+import dev.mrshawn.minehunter.item.ModItemGroups;
 import dev.mrshawn.minehunter.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +15,8 @@ public class MineHunter implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

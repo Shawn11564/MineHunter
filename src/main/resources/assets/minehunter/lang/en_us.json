@@ -1,4 +1,9 @@
 {
   "item.minehunter.raw_pink_garnet": "Raw Pink Garnet",
-  "item.minehunter.pink_garnet": "Pink Garnet"
+  "item.minehunter.pink_garnet": "Pink Garnet",
+
+  "block.minehunter.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+  "block.minehunter.pink_garnet_block": "Block of Pink Garnet",
+
+  "itemgroup.pink_garnet_group": "Pink Garnet"
 }
