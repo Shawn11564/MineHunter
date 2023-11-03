@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minehunter:block/end_pink_garnet_ore"
+  }
+}

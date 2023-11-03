@@ -18,6 +18,17 @@ public class ModBlocks {
 	public static Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
 			new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
+	public static Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
+			new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+
+	public static Block DEEPSLATE_PINK_GARNET_ORE = registerBlock("deepslate_pink_garnet_ore",
+			new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_EMERALD_ORE)));
+
+	public static Block NETHER_PINK_GARNET_ORE = registerBlock("nether_pink_garnet_ore",
+			new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+
+	public static Block END_PINK_GARNET_ORE = registerBlock("end_pink_garnet_ore",
+			new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
 
 	private static Block registerBlock(String name, Block block) {
 		registerBlockItem(name, block);

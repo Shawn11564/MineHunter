@@ -4,6 +4,10 @@
 
   "block.minehunter.raw_pink_garnet_block": "Block of Raw Pink Garnet",
   "block.minehunter.pink_garnet_block": "Block of Pink Garnet",
+  "block.minehunter.pink_garnet_ore": "Pink Garnet Ore",
+  "block.minehunter.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
+  "block.minehunter.nether_pink_garnet_ore": "Nether Pink Garnet Ore",
+  "block.minehunter.end_pink_garnet_ore": "End Pink Garnet Ore",
 
   "itemgroup.pink_garnet_group": "Pink Garnet"
 }
