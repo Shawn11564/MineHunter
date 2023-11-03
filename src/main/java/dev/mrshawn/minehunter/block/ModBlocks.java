@@ -25,10 +25,10 @@ public class ModBlocks {
 			new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_EMERALD_ORE)));
 
 	public static Block NETHER_PINK_GARNET_ORE = registerBlock("nether_pink_garnet_ore",
-			new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+			new Block(FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE)));
 
 	public static Block END_PINK_GARNET_ORE = registerBlock("end_pink_garnet_ore",
-			new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_ORE)));
+			new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
 
 	private static Block registerBlock(String name, Block block) {
 		registerBlockItem(name, block);
